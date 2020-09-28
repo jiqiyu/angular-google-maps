@@ -1,0 +1,52 @@
+<div class="container mt-4 col-lg-3" *ngIf="!isLoggedIn">
+  <h2 class="m-4 font-weight-light text-center">Please Sign In</h2>
+  <div class="alert alert-warning" role="alert" *ngIf="feedback.type === 1">{{feedback.msg}}</div>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <input type="text" 
+             id="email"
+             name="email"
+             placeholder="Email"
+             formControlName="email"
+             class="form-control"
+             [ngClass]="{'is-invalid': email.errors && (email.touched || email.dirty)}">
+      <div class="invalid-feedback" *ngIf="email.errors && email.errors.required">
+        Email is required
+      </div>
+      <div class="invalid-feedback" *ngIf="email.errors && email.errors.email">
+        Unrecognised email format
+      </div>
+    </div>
+    <div class="form-group">
+      <input type="password" 
+             id="psw"
+             name="psw"
+             placeholder="Password"
+             formControlName="psw"
+             class="form-control"
+             [ngClass]="{'is-invalid': psw.errors && (psw.touched || psw.dirty)}">
+      <div class="invalid-feedback" *ngIf="psw.errors && psw.errors.required">
+        Password is required
+      </div>
+    </div>
+    <p>
+      <button class="btn btn-success mr-3 btn-lg btn-block font-weight-light" 
+              type="submit" 
+              [disabled]="!loginForm.valid">
+        Login
+      </button>
+    </p>
+  </form>
+</div>
+
+<div *ngIf="isLoggedIn">
+  <div class="container mt-4 col-lg-4">
+    <h5 class="text-center">User Info</h5>
+    <ul class="list-group pb-3">
+      <li class="list-group-item" *ngFor="let item of user | keyvalue">{{item.key | titlecase}}: {{item.value}}</li>
+    </ul>
+    <p>
+      <button class="btn btn-light btn-lg btn-block font-weight-light" (click)="logout()">Logout</button>
+    </p>
+  </div>
+</div>

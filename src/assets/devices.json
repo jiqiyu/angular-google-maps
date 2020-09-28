@@ -1,0 +1,102 @@
+[
+  {
+    "id": "MODEL1-001", 
+    "snapshot": [
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {
+          "lat": -34.039939637547135,
+          "lng": 139.65244091796876
+        }
+      },
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 30,
+        "airQual": 1,
+        "coords": {
+          "lat": -34.14002222729243,
+          "lng": 139.96005810546876
+        }
+      }
+    ]
+  }, 
+
+  {
+    "id": "MODEL1-002", 
+    "snapshot": [
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 2,
+        "deviceUserFullname": "John Doe",
+        "temperature": 70,
+        "airQual": 2,
+        "coords": {
+          "lat": -35.06689662663586,
+          "lng": 139.26242626953126
+        }
+      },
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 2,
+        "deviceUserFullname": "John Doe",
+        "temperature": 50,
+        "airQual": 1,
+        "coords": {
+          "lat": -35.02192369829769,
+          "lng": 139.20749462890626
+        }
+      },
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 2,
+        "deviceUserFullname": "John Doe",
+        "temperature": 80,
+        "airQual": 3,
+        "coords": {
+          "lat": -35.048910426366234,
+          "lng": 139.59201611328126
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "MODEL1-003", 
+    "snapshot": [
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 3,
+        "deviceUserFullname": "John Doe",
+        "temperature": 55,
+        "airQual": 3,
+        "coords": {
+          "lat": -33.93518142287529,
+          "lng": 140.86093701171876
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "MODEL1-004", 
+    "snapshot": [
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 4,
+        "deviceUserFullname": "John Doe",
+        "temperature": 55,
+        "airQual": 2,
+        "coords": {
+          "lat": -33.83518142287529,
+          "lng": 140.76093701171876
+        }
+      }
+    ]
+  }
+]

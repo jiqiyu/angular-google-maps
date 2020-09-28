@@ -1,0 +1,40 @@
+.addrDropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.dropdownContent {
+  padding: .5em;
+  position: absolute;
+  width: 100%;
+  margin-top: .4em;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) { /* ex-sm and sm screen */
+  .ctrl-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .ctrl-btn-group {
+    padding-top: .4em;
+  }
+}
+
+@media (max-width: 575.98px) { /* ex-sm screen */
+  .ctrl-btn-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  .ctrl-btn-group button {
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 576px) { /* all except ex-sm screen */
+  .ctrl-btn-group button { margin-right: .4em; }
+  .ctrl-btn-group:last-child { margin-right: 0; }
+}

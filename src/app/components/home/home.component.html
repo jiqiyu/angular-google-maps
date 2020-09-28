@@ -1,0 +1,124 @@
+<div class="container-fluid mt-3">
+  <div class="d-flex justify-content-lg-between justify-content-sm-center pb-3 align-items-lg-end ctrl-bar">
+    <div>
+      <div class="font-weight-light">Double Click on the Map to Add A Marker; Double Click on A Marker to Unmark</div>
+      <div class="addrDropdown">
+        <input type="text" 
+               placeholder="Or Enter An Address Here to Add A Marker" 
+               class="form-control form-control-sm"
+               (blur)="staticModal.show()"
+               #addrInput>
+        <!-- <div class="dropdownContent shadow p-3 mb-5 bg-white rounded" 
+             [class.d-none]="">
+          {{autoAddress}}
+        </div> -->
+      </div>
+    </div>
+    <div class="ctrl-btn-group">
+      <button class="btn btn-light btn-sm" (click)="toggleDesc();">Toggle Info Window</button>
+      <button class="btn btn-light btn-sm" [class.d-none]="showUser" (click)="showUserMarkers();">Show User Markers</button>
+      <button class="btn btn-light btn-sm" [class.d-none]="!showUser" (click)="hideUserMarkers();">Hide User Markers</button>
+      <button class="btn btn-light btn-sm" [class.d-none]="!showDevice" (click)="showDevices();">Show Devices</button>
+      <button class="btn btn-light btn-sm" [class.d-none]="showDevice" (click)="hideDevices();">Hide Devices</button>
+    </div>
+  </div>
+  <div class="container-fluid font-weight-light m-0 p-0 mb-3">
+  <agm-map style="height: 600px;" 
+           [latitude]="lat" 
+           [longitude]="lng"
+           [disableDoubleClickZoom]="true"
+           data-toggle="modal"
+           (mapDblClick)="getCoords($event);staticModal.show()"> <!-- (mapClick)="logCoords($event);" -->
+    <agm-marker [latitude]="lat" [longitude]="lng" 
+                title="This is an example of *title*, and the ':)' is the label "
+                label=":)">
+      <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
+        <div>
+          <div>This is an example of <strong><i>*description*</i></strong> .  </div>
+          <div class="dropdown-divider"></div>
+          <div>Here marks your location based on your client ip address.</div>
+          <div>This is an example marker, you can not delete this one.</div>
+        </div>
+      </agm-info-window>
+    </agm-marker>
+
+    <!-- markers add by user: -->
+    <agm-marker *ngFor="let m of markers; index as i"
+                [latitude]="m.coords.lat"
+                [longitude]="m.coords.lng"
+                [title]="m.title"
+                [label]="m.label"
+                (markerDblClick)="getMarker(m.coords.lat, m.coords.lng, i);openPopup(confirmWindow)">
+      <agm-info-window *ngIf="m.description.length" [disableAutoPan]="true" [isOpen]=openInfoWindow>
+        {{m.description}}
+      </agm-info-window>
+    </agm-marker>
+
+    <!-- devices' markers: -->
+    <agm-marker *ngFor="let d of deviceMarkers; index as idx"
+                [latitude]="d.coords.lat"
+                [longitude]="d.coords.lng"
+                [title]="d.id"
+                [label]="D"
+                [iconUrl]="d.iconUrl">
+      <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
+        <div>
+          <h6 class="font-weight-bold" [class.text-warning]="d.isDanger" [class.text-danger]="d.isFatal">ID: {{d.title}}</h6>
+          <div class="dropdown-divider"></div>
+          <div><b>User's Full Name: </b>{{d.fullname}}</div>
+          <div [class.text-warning]="d.isDanger_t" [class.text-danger]="d.isFatal_t">
+            <b>Temperature: </b> {{d.temperature}}
+          </div>
+          <div [class.text-warning]="d.isDanger_a" [class.text-danger]="d.isFatal_a">
+            <b>Air Quality: </b> {{d.airQual}}
+          </div>
+        </div>
+      </agm-info-window>
+    </agm-marker>
+
+  </agm-map>
+  </div>
+
+  <div class="container-fluid m-0 p-0 mt-3 font-weight-light">
+    <span><small>Information based on your client IP address:</small></span>
+    <p><small>{{clientIP | json}}</small></p>
+  </div>
+</div>
+
+<!-- popup dialog: -->
+<div class="modal fade" bsModal #staticModal="bs-modal" [config]="{backdrop: 'static'}"
+     tabindex="-1" role="dialog" aria-labelledby="dialog-static-name">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span id="dialog-static-name" class="modal-title pull-left font-weight-light">What's this place?</span>
+      </div>
+      <div class="modal-body">
+        <div>
+          <input type="text" value="" placeholder="Title" class="form-control mb-2" #t>
+          <input type="text" value="" placeholder="Label(one letter is recommended)" class="form-control mb-2" #lab>
+          <textarea value="" rows="3" placeholder="Description of the place" class="form-control mb-2" #desc></textarea>
+          <p>
+            <button class="btn btn-primary btn-sm btn-block" 
+                    (click)="mark(lab.value, t.value, desc.value);staticModal.hide();t.value='';lab.value='';desc.value=''">
+              Mark
+            </button>
+            <button class="btn btn-secondary btn-sm btn-block"
+                    (click)="staticModal.hide();t.value='';lab.value='';desc.value=''">
+              Cancel
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- popup confirm window: -->
+<ng-template #confirmWindow>
+<div class="modal-body text-center">
+  <p>Do you want to delete this marker?</p>
+  <button type="button" class="btn btn-secondary" (click)="unMark();hidePopup()">Yes</button>
+  <button type="button" class="btn btn-primary" (click)="hidePopup()">No</button>
+</div>
+</ng-template>
