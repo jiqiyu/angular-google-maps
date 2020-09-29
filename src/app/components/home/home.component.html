@@ -11,11 +11,11 @@
         <div class="input-group-append">
           <button class="btn btn-outline-secondary btn-sm" 
                   type="button"
-                  (disabled)="!isValidAddress"
+                  [(disabled)]="!isValidAddress"
                   (click)="addrInput.value='';moveMap()">Move Map</button>
           <button class="btn btn-outline-secondary btn-sm" 
                   type="button"
-                  (disabled)="!isValidAddress"
+                  [(disabled)]="!isValidAddress"
                   (click)="staticModal.show();">Add Marker</button>
         </div>
       </div>
