@@ -8,6 +8,7 @@ export interface deviceSnapshot {
   airQual: AirQualIndex;
   coords: Coords;
   speed?: string;
+  isOnline?: boolean;
 }
 
 export class Device {

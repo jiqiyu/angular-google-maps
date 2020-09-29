@@ -2,16 +2,22 @@
   <div class="d-flex justify-content-lg-between justify-content-sm-center pb-3 align-items-lg-end ctrl-bar">
     <div>
       <div class="font-weight-light">Double Click on the Map to Add A Marker; Double Click on A Marker to Unmark</div>
-      <div class="addrDropdown">
+      <div class="input-group">
         <input type="text" 
-               placeholder="Or Enter An Address Here to Add A Marker" 
+               placeholder="Or Enter An Address Here" 
                class="form-control form-control-sm"
-               (blur)="staticModal.show()"
+               [(ngModel)]="autoAddress"
                #addrInput>
-        <!-- <div class="dropdownContent shadow p-3 mb-5 bg-white rounded" 
-             [class.d-none]="">
-          {{autoAddress}}
-        </div> -->
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btn-sm" 
+                  type="button"
+                  (disabled)="!isValidAddress"
+                  (click)="addrInput.value='';moveMap()">Move Map</button>
+          <button class="btn btn-outline-secondary btn-sm" 
+                  type="button"
+                  (disabled)="!isValidAddress"
+                  (click)="staticModal.show();">Add Marker</button>
+        </div>
       </div>
     </div>
     <div class="ctrl-btn-group">
@@ -24,12 +30,12 @@
   </div>
   <div class="container-fluid font-weight-light m-0 p-0 mb-3">
   <agm-map style="height: 600px;" 
-           [latitude]="lat" 
-           [longitude]="lng"
+           [latitude]="mapCentreLat" 
+           [longitude]="mapCentreLng"
            [disableDoubleClickZoom]="true"
            data-toggle="modal"
-           (mapDblClick)="getCoords($event);staticModal.show()"> <!-- (mapClick)="logCoords($event);" -->
-    <agm-marker [latitude]="lat" [longitude]="lng" 
+           (mapDblClick)="getCoords($event);staticModal.show()">
+    <agm-marker [latitude]="exampleMkrLat" [longitude]="exampleMkrLng"
                 title="This is an example of *title*, and the ':)' is the label "
                 label=":)">
       <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
@@ -100,11 +106,14 @@
           <textarea value="" rows="3" placeholder="Description of the place" class="form-control mb-2" #desc></textarea>
           <p>
             <button class="btn btn-primary btn-sm btn-block" 
-                    (click)="mark(lab.value, t.value, desc.value);staticModal.hide();t.value='';lab.value='';desc.value=''">
+                    (click)="mark(lab.value, t.value, desc.value);
+                             staticModal.hide();
+                             t.value='';lab.value='';desc.value='';addrInput.value='';">
               Mark
             </button>
             <button class="btn btn-secondary btn-sm btn-block"
-                    (click)="staticModal.hide();t.value='';lab.value='';desc.value=''">
+                    (click)="staticModal.hide();
+                             t.value='';lab.value='';desc.value=''">
               Cancel
             </button>
           </p>

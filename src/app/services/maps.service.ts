@@ -8,18 +8,22 @@ export class MapsService {
 
   ipUrl = "https://ipapi.co/json/";
   deviceUrl = "../assets/devices.json";
-  geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json";
+  geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json?";
 
   constructor(
     private http: HttpClient,
   ) { }
 
-  public getClientIP() {
+  getClientIP() {
     return this.http.get<any>(this.ipUrl);
   }
 
-  public getDeviceList() {
+  getDeviceList() {
     return this.http.get<any>(this.deviceUrl);
+  }
+
+  getGeoCode(address: string) {
+    return this.http.get<any>(this.geocodeUrl + address);
   }
 
 }

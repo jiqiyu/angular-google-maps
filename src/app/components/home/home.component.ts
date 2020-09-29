@@ -1,4 +1,4 @@
-import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { Component, OnInit, AfterViewInit, TemplateRef, ViewChild, EventEmitter, Output, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
@@ -16,15 +16,17 @@ import { AirQualIndex } from '../../models/device';
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
   @ViewChild('addrInput') addrInput: any;
   
-  autoAddress: any;
+  autoAddress: string;
   addressType = "geocode";
+  isValidAddress = false;
   isLoggedIn: boolean;
-  showDropdown: boolean;
-  lat: number;
-  lng: number;
+  exampleMkrLat: number;
+  exampleMkrLng: number;
+  mapCentreLat: number;
+  mapCentreLng: number;
   clientIP: any;
   coords: Coords;
   marker: any;
@@ -60,7 +62,6 @@ export class HomeComponent implements OnInit {
     }
   };
 
-  
   modalRef: BsModalRef;
 
   constructor(
@@ -68,7 +69,8 @@ export class HomeComponent implements OnInit {
     private maps: MapsService,
     private router: Router,
     private modalService: BsModalService,
-    private mapsAPILoader: MapsAPILoader
+    private mapsAPILoader: MapsAPILoader,
+    private zone: NgZone
   ) { }
 
   ngOnInit(): void {
@@ -83,22 +85,25 @@ export class HomeComponent implements OnInit {
         this.lng = position.coords.longitude;
         console.log(position);
       }); */
-      
-      this.showDropdown = false;
-      this.mapsAPILoader.load().then(() => {
-        this.maps.getClientIP().subscribe( data => {
-          this.clientIP = data;
-          this.lat = data.latitude;
-          this.lng = data.longitude;
-        });
-        this.getPlaceAutocomplete();
-      })
+      this.maps.getClientIP().subscribe( data => {
+        this.clientIP = data;
+        this.mapCentreLat = data.latitude;
+        this.mapCentreLng = data.longitude;
+        this.exampleMkrLat = data.latitude;
+        this.exampleMkrLng = data.longitude;
+      });
       this.key = 'userHasLoggedIn_coords_' + localStorage.getItem("userHasLoggedIn_username");
       if (localStorage.getItem(this.key) === null) {
         localStorage.setItem(this.key, JSON.stringify([]));
       }
       this.markers = this.markers.concat(this.getMarkersFromLocalStorage());
     }
+  }
+
+  ngAfterViewInit() {
+    this.mapsAPILoader.load().then(() => {
+      this.getPlaceAutocomplete();
+    });
   }
 
   private getPlaceAutocomplete() {
@@ -108,7 +113,28 @@ export class HomeComponent implements OnInit {
     });
     google.maps.event.addListener(autocomplete, 'place_changed', () => {
       const place = autocomplete.getPlace();
-      this.autoAddress = place;
+      if (place.formatted_address) {
+        this.autoAddress = place.formatted_address;
+        this.coords = {
+          lat: place.geometry.location.lat(),
+          lng: place.geometry.location.lng()
+        };
+        this.zone.run(()=>this.isValidAddress = true);
+      } else {
+        this.zone.run(()=>this.isValidAddress = false);
+      }
+    });
+  }
+
+  moveMap() {
+    this.zone.run(() => {
+      if (this.coords === undefined) {
+        console.error('Invalid Address'); 
+        return null;
+      }
+      this.mapCentreLat = this.coords.lat;
+      this.mapCentreLng = this.coords.lng;
+      this.isValidAddress = false;
     });
   }
 
@@ -217,8 +243,8 @@ export class HomeComponent implements OnInit {
     this.coords = event.coords;
   }
 
-  logCoords(event: any): void {
-    console.log(event.coords);
+  consoleLog(what: any) {
+    console.log(what);
   }
 
   getMarker(lat: number, lng: number, idx: number): void {
@@ -260,6 +286,7 @@ export class HomeComponent implements OnInit {
       arr.push(this.markers[len-1].key);
       localStorage.setItem(this.key, JSON.stringify(arr));
     }
+    this.moveMap();
   }
 
   getMarkersFromLocalStorage(): Array<GmapMarker> {
