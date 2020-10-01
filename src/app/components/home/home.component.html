@@ -34,6 +34,8 @@
            [longitude]="mapCentreLng"
            [disableDoubleClickZoom]="true"
            data-toggle="modal"
+           (mapReady)="getMapInstance($event)"
+           (idle)="resetMapCentre()"
            (mapDblClick)="getCoords($event);staticModal.show()">
     <agm-marker [latitude]="exampleMkrLat" [longitude]="exampleMkrLng"
                 title="This is an example of *title*, and the ':)' is the label "

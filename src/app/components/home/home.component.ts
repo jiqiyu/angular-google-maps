@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   addressType = "geocode";
   isValidAddress = false;
   isLoggedIn: boolean;
+  map: any;
   exampleMkrLat: number;
   exampleMkrLng: number;
   mapCentreLat: number;
@@ -106,6 +107,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     });
   }
 
+  getMapInstance(map) {
+    this.map = map;
+  }
+
   private getPlaceAutocomplete() {
     const autocomplete = new google.maps.places.Autocomplete( this.addrInput.nativeElement, {
       componentRestrictions: { country: 'AU' },
@@ -136,6 +141,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
       this.mapCentreLng = this.coords.lng;
       this.isValidAddress = false;
     });
+  }
+
+  resetMapCentre() {
+    this.mapCentreLat = this.map.center.lat();
+    this.mapCentreLng = this.map.center.lng();
   }
 
   hideUserMarkers() {
@@ -270,7 +280,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   mark(label: string, title: string, description: string): void {
-    let len = this.markers.push(new GmapMarker(this.key, {
+    let len = this.markers.push(new GmapMarker({
       coords: {
         lat: this.coords.lat, 
         lng: this.coords.lng

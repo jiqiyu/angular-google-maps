@@ -12,7 +12,7 @@ export class GmapMarker {
   iconUrl?: object;
   key: string;
 
-  constructor(key: string, init: Partial<GmapMarker>) {
+  constructor(init: Partial<GmapMarker>) {
     Object.assign(this, init);
     this.key = this.coords.lat.toString() + '_____' +  // 5*_
                 this.coords.lng.toString() + '_____' + 
