@@ -68,9 +68,11 @@
                 [longitude]="d.coords.lng"
                 [title]="d.id"
                 [label]="D"
-                [iconUrl]="d.iconUrl">
+                [iconUrl]="d.iconUrl"
+                (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value)">
       <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
         <div>
+          <input type="hidden" value={{d.title}} #deviceId>
           <h6 class="font-weight-bold" [class.text-warning]="d.isDanger" [class.text-danger]="d.isFatal">ID: {{d.title}}</h6>
           <div class="dropdown-divider"></div>
           <div><b>User's Full Name: </b>{{d.fullname}}</div>
@@ -83,6 +85,27 @@
         </div>
       </agm-info-window>
     </agm-marker>
+
+    <div *ngIf="trail.id !== undefined && trail.coords.length">
+      <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
+                  [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
+      </agm-circle>
+      <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
+                  [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
+      </agm-circle>
+      <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
+                  [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
+      </agm-circle>
+      <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
+                  [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
+      </agm-circle>
+      <agm-polyline [strokeColor]="'#1E90FF'"[strokeWeight]="3">
+        <agm-polyline-point *ngFor="let coords of trail.coords; index as idx"
+                            [latitude]="coords.lat" 
+                            [longitude]="coords.lng">
+        </agm-polyline-point>
+      </agm-polyline>
+    </div>
 
   </agm-map>
   </div>

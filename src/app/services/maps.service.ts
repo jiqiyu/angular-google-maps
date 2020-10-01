@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+import { filter, pluck, map } from 'rxjs/operators'
+import { Coords } from '../models/maps.model';
+
 @Injectable({
   providedIn: 'root'
 })

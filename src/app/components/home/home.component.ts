@@ -2,7 +2,7 @@ import { Component, OnInit, AfterViewInit, TemplateRef, ViewChild, EventEmitter,
 import { Router } from '@angular/router';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
-import { MapsAPILoader } from '@agm/core'
+import { MapsAPILoader } from '@agm/core';
 
 import { UserService } from 'src/app/services/user.service';
 import { MapsService } from '../../services/maps.service';
@@ -37,6 +37,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   openInfoWindow = false;
   showDevice = true;
   showUser = true;
+  trail = {id: undefined, coords: []};
   deviceList: Array<any>;
   deviceMarkers: Array<any> = [];
   deviceIcon = {
@@ -148,6 +149,23 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.mapCentreLng = this.map.center.lng();
   }
 
+  showDeviceTrail(deviceId: string) {
+    this.maps.getDeviceList().subscribe( data => {
+      data = data.filter(x => x.id === deviceId);
+      if (data.length === 1) {
+        this.trail.coords = [];
+        if (this.trail.id === deviceId) {
+          this.trail.id = undefined;
+          return;
+        }
+        this.trail.id = deviceId;
+        data[0].snapshot.forEach( el => {
+          this.trail.coords.push(el.coords);
+        });
+      }
+    });
+  }
+
   hideUserMarkers() {
     this.userMarkersCopy = this.markers;
     this.markers = [];
@@ -245,8 +263,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.showDevice = !this.showDevice;
   }
 
-  toggleDesc() {
-      this.openInfoWindow = !this.openInfoWindow;
+  toggleDesc(b?: boolean) {
+    this.openInfoWindow = b === undefined ? !this.openInfoWindow : b;
   }
 
   getCoords(event: any): void {
