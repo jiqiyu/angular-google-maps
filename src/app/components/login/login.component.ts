@@ -5,8 +5,8 @@ import { Router } from '@angular/router';
 import { UserService } from '../../services/user.service';
 import { ValidatorService } from '../../services/validator.service';
 
-import { User } from '../../models/user';
-import { FeedbackMsg, FeedbackType } from '../../models/feedback-msg';
+import { User } from '../../models/user.model';
+import { FeedbackMsg, FeedbackType } from '../../models/feedback-msg.model';
 
 @Component({
   selector: 'app-login',

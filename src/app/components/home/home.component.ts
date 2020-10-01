@@ -6,9 +6,9 @@ import { MapsAPILoader } from '@agm/core'
 
 import { UserService } from 'src/app/services/user.service';
 import { MapsService } from '../../services/maps.service';
-import { Coords } from '../../models/maps';
-import { GmapMarker } from '../../models/maps';
-import { AirQualIndex } from '../../models/device';
+import { Coords } from '../../models/maps.model';
+import { GmapMarker } from '../../models/maps.model';
+import { AirQualIndex } from '../../models/device.model';
 
 @Component({
   selector: 'app-home',

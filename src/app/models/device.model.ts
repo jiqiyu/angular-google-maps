@@ -1,4 +1,4 @@
-import { Coords } from './maps';
+import { Coords } from './maps.model';
 
 export interface deviceSnapshot {
   // deviceId: string;
