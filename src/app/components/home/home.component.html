@@ -28,7 +28,7 @@
       <button class="btn btn-light btn-sm" [class.d-none]="showDevice" (click)="hideDevices();">Hide Devices</button>
     </div>
   </div>
-  <div class="container-fluid font-weight-light m-0 p-0 mb-3">
+  <div class="container-fluid font-weight-light m-0 p-0">
     <agm-map style="height: 600px;" 
             [latitude]="mapCentreLat" 
             [longitude]="mapCentreLng"
@@ -69,7 +69,7 @@
                   [title]="d.id"
                   [label]="D"
                   [iconUrl]="d.iconUrl" 
-                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value)">
+                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value);showDeviceSnaps(deviceId.value, 4)">
         <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
           <div>
             <input type="hidden" value={{d.title}} #deviceId>
@@ -110,15 +110,17 @@
     </agm-map>
   </div>
 
-  <!-- <div class="container-fluid m-0 p-0 mt-3 font-weight-light">
-    <span><small>Information based on your client IP address:</small></span>
-    <p><small>{{clientIP | json}}</small></p>
-  </div> -->
-  <div class="d-flex flex-row" #deviceSnap>
-    <div class="m-3">
-      <span><small>Device History Snapshots:</small></span>
-      <p><small>{{clientIP | json}}</small></p>
+  <div class="d-flex flex-row m-0 p-0">
+    <div class="shadow-sm bg-white rounded m-0 p-3 pt-0" *ngFor="let s of deviceSnaps; index as idx">
+      <span><small>Device History Snapshots {{idx + 1}}:</small></span>
+      <div class="dropdown-divider"></div>
+      <p><small>{{s | json}}</small></p>
     </div>
+  </div>
+  <div class="container-fluid m-0 p-3 pb-0 font-weight-light shadow-sm bg-white rounded">
+    <span><small>Information based on your client IP address:</small></span>
+    <div class="dropdown-divider"></div>
+    <p class="p-0 m-0"><small>{{clientIP | json}}</small></p>
   </div>
 </div>
 

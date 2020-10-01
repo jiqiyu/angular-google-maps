@@ -35,6 +35,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   markers: Array<GmapMarker> = [];
   userMarkersCopy: Array<GmapMarker>;
   key: string;
+  deviceSnaps = [];
   openInfoWindow = false;
   showDevice = true;
   showUser = true;
@@ -171,6 +172,13 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.subs.push(snapCoords$);
   }
 
+  showDeviceSnaps(id: string, max: number) {
+    let deviceSnaps$ = this.maps.getDeviceSnap(id).subscribe ( data => {
+      this.deviceSnaps = data.snapshot.slice(0, max);
+    });
+    this.subs.push(deviceSnaps$);
+  }
+
   hideUserMarkers() {
     this.userMarkersCopy = this.markers;
     this.markers = [];
@@ -266,7 +274,8 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   hideDevices() {
     this.deviceMarkers = [];
-    this.trail = { id: undefined, coords: [] }; // remove trail too
+    this.trail = { id: undefined, coords: [] };
+    this.deviceSnaps = [];
     this.showDevice = !this.showDevice;
   }
 
