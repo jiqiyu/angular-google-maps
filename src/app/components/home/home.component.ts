@@ -118,7 +118,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         this.coords = {
           lat: place.geometry.location.lat(),
           lng: place.geometry.location.lng()
-        };
+        }; 
         this.zone.run(()=>this.isValidAddress = true);
       } else {
         this.zone.run(()=>this.isValidAddress = false);

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, Subject } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 
@@ -12,7 +12,7 @@ import { User } from '../models/user';
 export class UserService {
 
   userurl = '../assets/users.json';
-  private source = new Subject<boolean>();
+  private source = new BehaviorSubject<boolean>(null);
   loginStat = this.source.asObservable();
 
   constructor(
