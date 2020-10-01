@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { filter, pluck, map } from 'rxjs/operators'
-import { Coords } from '../models/maps.model';
+import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
+
+import { DeviceSnapshot } from '../models/device.model';
 
 @Injectable({
   providedIn: 'root'
@@ -17,16 +19,25 @@ export class MapsService {
     private http: HttpClient,
   ) { }
 
-  getClientIP() {
+  getClientIP(): Observable<any> {
     return this.http.get<any>(this.ipUrl);
   }
 
-  getDeviceList() {
+  getDeviceList(): Observable<any> {
     return this.http.get<any>(this.deviceUrl);
   }
 
-  getGeoCode(address: string) {
+  getGeoCode(address: string): Observable<any> {
     return this.http.get<any>(this.geocodeUrl + address);
   }
 
+  getDeviceSnap(id: string): Observable<any> {
+    return this.getDeviceList().pipe(map(data => data.filter(x => x.id === id)[0]))
+  }
+
+  getSnapCoords(id: string): Observable<any> {
+    return this.getDeviceSnap(id).pipe(
+      map(data => data = {'id': id, 'coords': data.snapshot.map(x=>x.coords)})
+    )
+  }
 }

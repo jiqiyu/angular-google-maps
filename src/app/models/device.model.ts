@@ -1,6 +1,6 @@
 import { Coords } from './maps.model';
 
-export interface deviceSnapshot {
+export interface DeviceSnapshot {
   // deviceId: string;
   timestamp: number,
   deviceUserId?: number;
@@ -13,7 +13,7 @@ export interface deviceSnapshot {
 
 export class Device {
   id: string;
-  snapshot: Array<deviceSnapshot>;
+  snapshot: Array<DeviceSnapshot>;
 }
 
 export enum AirQualIndex {

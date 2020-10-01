@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, TemplateRef, ViewChild, EventEmitter, Output, NgZone } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy, TemplateRef, ViewChild, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
@@ -16,9 +16,10 @@ import { AirQualIndex } from '../../models/device.model';
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('addrInput') addrInput: any;
   
+  private subs = [];
   autoAddress: string;
   addressType = "geocode";
   isValidAddress = false;
@@ -76,9 +77,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
   ) { }
 
   ngOnInit(): void {
-    this.us.loginStat.subscribe( stat => this.isLoggedIn = stat ); 
+    let loginStat$ = this.us.loginStat.subscribe( stat => this.isLoggedIn = stat );
+    this.subs.push(loginStat$);
     this.us.setLoginStat( localStorage.getItem('userHasLoggedIn_username') ? true : false );
-
+    
     if (!this.isLoggedIn) {
       this.router.navigate(['/login']);
     } else {
@@ -87,13 +89,14 @@ export class HomeComponent implements OnInit, AfterViewInit {
         this.lng = position.coords.longitude;
         console.log(position);
       }); */
-      this.maps.getClientIP().subscribe( data => {
+      let clientIp$ = this.maps.getClientIP().subscribe( data => {
         this.clientIP = data;
         this.mapCentreLat = data.latitude;
         this.mapCentreLng = data.longitude;
         this.exampleMkrLat = data.latitude;
         this.exampleMkrLng = data.longitude;
       });
+      this.subs.push(clientIp$);
       this.key = 'userHasLoggedIn_coords_' + localStorage.getItem("userHasLoggedIn_username");
       if (localStorage.getItem(this.key) === null) {
         localStorage.setItem(this.key, JSON.stringify([]));
@@ -108,7 +111,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
     });
   }
 
-  getMapInstance(map) {
+  ngOnDestroy() {
+    for(const sub of this.subs) {
+      sub.unsubscribe();
+    }
+  }
+
+  getMapInstance(map: any) {
     this.map = map;
   }
 
@@ -149,21 +158,17 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.mapCentreLng = this.map.center.lng();
   }
 
-  showDeviceTrail(deviceId: string) {
-    this.maps.getDeviceList().subscribe( data => {
-      data = data.filter(x => x.id === deviceId);
-      if (data.length === 1) {
-        this.trail.coords = [];
-        if (this.trail.id === deviceId) {
-          this.trail.id = undefined;
-          return;
-        }
-        this.trail.id = deviceId;
-        data[0].snapshot.forEach( el => {
-          this.trail.coords.push(el.coords);
-        });
+  showDeviceTrail(id: string) {
+    let snapCoords$ = this.maps.getSnapCoords(id).subscribe( data => {
+      this.trail.coords = []
+      if (this.trail.id === id) {
+        this.trail.id = undefined;
+        return;
       }
-    });
+      this.trail.id = id;
+      this.trail.coords = data.coords;
+    })
+    this.subs.push(snapCoords$);
   }
 
   hideUserMarkers() {
@@ -178,7 +183,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   showDevices() {
-    this.maps.getDeviceList().subscribe(
+    let deviceList$ = this.maps.getDeviceList().subscribe(
       (data) => {
         this.deviceList = data;
 
@@ -256,10 +261,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
         this.showDevice = !this.showDevice;
       }
     );
+    this.subs.push(deviceList$);
   }
 
   hideDevices() {
     this.deviceMarkers = [];
+    this.trail = { id: undefined, coords: [] }; // remove trail too
     this.showDevice = !this.showDevice;
   }
 

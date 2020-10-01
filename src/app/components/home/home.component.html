@@ -29,90 +29,96 @@
     </div>
   </div>
   <div class="container-fluid font-weight-light m-0 p-0 mb-3">
-  <agm-map style="height: 600px;" 
-           [latitude]="mapCentreLat" 
-           [longitude]="mapCentreLng"
-           [disableDoubleClickZoom]="true"
-           data-toggle="modal"
-           (mapReady)="getMapInstance($event)"
-           (idle)="resetMapCentre()"
-           (mapDblClick)="getCoords($event);staticModal.show()">
-    <agm-marker [latitude]="exampleMkrLat" [longitude]="exampleMkrLng"
-                title="This is an example of *title*, and the ':)' is the label "
-                label=":)">
-      <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
-        <div>
-          <div>This is an example of <strong><i>*description*</i></strong> .  </div>
-          <div class="dropdown-divider"></div>
-          <div>Here marks your location based on your client ip address.</div>
-          <div>This is an example marker, you can not delete this one.</div>
-        </div>
-      </agm-info-window>
-    </agm-marker>
-
-    <!-- markers add by user: -->
-    <agm-marker *ngFor="let m of markers; index as i"
-                [latitude]="m.coords.lat"
-                [longitude]="m.coords.lng"
-                [title]="m.title"
-                [label]="m.label"
-                (markerDblClick)="getMarker(m.coords.lat, m.coords.lng, i);openPopup(confirmWindow)">
-      <agm-info-window *ngIf="m.description.length" [disableAutoPan]="true" [isOpen]=openInfoWindow>
-        {{m.description}}
-      </agm-info-window>
-    </agm-marker>
-
-    <!-- devices' markers: -->
-    <agm-marker *ngFor="let d of deviceMarkers; index as idx"
-                [latitude]="d.coords.lat"
-                [longitude]="d.coords.lng"
-                [title]="d.id"
-                [label]="D"
-                [iconUrl]="d.iconUrl"
-                (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value)">
-      <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
-        <div>
-          <input type="hidden" value={{d.title}} #deviceId>
-          <h6 class="font-weight-bold" [class.text-warning]="d.isDanger" [class.text-danger]="d.isFatal">ID: {{d.title}}</h6>
-          <div class="dropdown-divider"></div>
-          <div><b>User's Full Name: </b>{{d.fullname}}</div>
-          <div [class.text-warning]="d.isDanger_t" [class.text-danger]="d.isFatal_t">
-            <b>Temperature: </b> {{d.temperature}}
+    <agm-map style="height: 600px;" 
+            [latitude]="mapCentreLat" 
+            [longitude]="mapCentreLng"
+            [disableDoubleClickZoom]="true"
+            data-toggle="modal"
+            (mapReady)="getMapInstance($event)"
+            (idle)="resetMapCentre()"
+            (mapDblClick)="getCoords($event);staticModal.show()">
+      <agm-marker [latitude]="exampleMkrLat" [longitude]="exampleMkrLng"
+                  title="This is an example of *title*, and the ':)' is the label "
+                  label=":)">
+        <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
+          <div>
+            <div>This is an example of <strong><i>*description*</i></strong> .  </div>
+            <div class="dropdown-divider"></div>
+            <div>Here marks your location based on your client ip address.</div>
+            <div>This is an example marker, you can not delete this one.</div>
           </div>
-          <div [class.text-warning]="d.isDanger_a" [class.text-danger]="d.isFatal_a">
-            <b>Air Quality: </b> {{d.airQual}}
+        </agm-info-window>
+      </agm-marker>
+
+      <!-- markers add by user: -->
+      <agm-marker *ngFor="let m of markers; index as i"
+                  [latitude]="m.coords.lat"
+                  [longitude]="m.coords.lng"
+                  [title]="m.title"
+                  [label]="m.label"
+                  (markerDblClick)="getMarker(m.coords.lat, m.coords.lng, i);openPopup(confirmWindow)">
+        <agm-info-window *ngIf="m.description.length" [disableAutoPan]="true" [isOpen]=openInfoWindow>
+          {{m.description}}
+        </agm-info-window>
+      </agm-marker>
+
+      <!-- devices' markers: -->
+      <agm-marker *ngFor="let d of deviceMarkers; index as idx"
+                  [latitude]="d.coords.lat"
+                  [longitude]="d.coords.lng"
+                  [title]="d.id"
+                  [label]="D"
+                  [iconUrl]="d.iconUrl" 
+                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value)">
+        <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
+          <div>
+            <input type="hidden" value={{d.title}} #deviceId>
+            <h6 class="font-weight-bold" [class.text-warning]="d.isDanger" [class.text-danger]="d.isFatal">ID: {{d.title}}</h6>
+            <div class="dropdown-divider"></div>
+            <div><b>User's Full Name: </b>{{d.fullname}}</div>
+            <div [class.text-warning]="d.isDanger_t" [class.text-danger]="d.isFatal_t">
+              <b>Temperature: </b> {{d.temperature}}
+            </div>
+            <div [class.text-warning]="d.isDanger_a" [class.text-danger]="d.isFatal_a">
+              <b>Air Quality: </b> {{d.airQual}}
+            </div>
           </div>
-        </div>
-      </agm-info-window>
-    </agm-marker>
+        </agm-info-window>
+      </agm-marker>
 
-    <div *ngIf="trail.id !== undefined && trail.coords.length">
-      <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
-                  [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
-      </agm-circle>
-      <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
-                  [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
-      </agm-circle>
-      <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
-                  [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
-      </agm-circle>
-      <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
-                  [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
-      </agm-circle>
-      <agm-polyline [strokeColor]="'#1E90FF'"[strokeWeight]="3">
-        <agm-polyline-point *ngFor="let coords of trail.coords; index as idx"
-                            [latitude]="coords.lat" 
-                            [longitude]="coords.lng">
-        </agm-polyline-point>
-      </agm-polyline>
-    </div>
+      <div *ngIf="trail.id !== undefined && trail.coords.length">
+        <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
+                    [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
+        </agm-circle>
+        <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
+                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
+        </agm-circle>
+        <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
+                    [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
+        </agm-circle>
+        <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
+                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
+        </agm-circle>
+        <agm-polyline [strokeColor]="'#1E90FF'"[strokeWeight]="3">
+          <agm-polyline-point *ngFor="let coords of trail.coords; index as idx"
+                              [latitude]="coords.lat" 
+                              [longitude]="coords.lng">
+          </agm-polyline-point>
+        </agm-polyline>
+      </div>
 
-  </agm-map>
+    </agm-map>
   </div>
 
-  <div class="container-fluid m-0 p-0 mt-3 font-weight-light">
+  <!-- <div class="container-fluid m-0 p-0 mt-3 font-weight-light">
     <span><small>Information based on your client IP address:</small></span>
     <p><small>{{clientIP | json}}</small></p>
+  </div> -->
+  <div class="d-flex flex-row" #deviceSnap>
+    <div class="m-3">
+      <span><small>Device History Snapshots:</small></span>
+      <p><small>{{clientIP | json}}</small></p>
+    </div>
   </div>
 </div>
 

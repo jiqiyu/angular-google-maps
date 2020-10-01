@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -14,7 +14,8 @@ import { FeedbackMsg, FeedbackType } from '../../models/feedback-msg.model';
   styleUrls: ['./login.component.css']
 })
 
-export class LoginComponent implements OnInit {
+export class LoginComponent implements OnInit, OnDestroy {
+  private subs = [];
   isLoggedIn: boolean;
   user: User;
   feedback: FeedbackMsg = new FeedbackMsg();
@@ -28,7 +29,8 @@ export class LoginComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.us.loginStat.subscribe( stat => this.isLoggedIn = stat );
+    let loginStat$ = this.us.loginStat.subscribe( stat => this.isLoggedIn = stat );
+    this.subs.push(loginStat$);
     this.us.setLoginStat( localStorage.getItem('userHasLoggedIn_username') ? true : false );
     if (this.isLoggedIn) {
       this.user = {
@@ -45,11 +47,17 @@ export class LoginComponent implements OnInit {
     }
   }
 
+  ngOnDestroy() {
+    for(const sub of this.subs) {
+      sub.unsubscribe();
+    }
+  }
+
   get email() { return this.loginForm.get('email'); }
   get psw() { return this.loginForm.get('psw'); }
   
   onSubmit() {
-    this.us.getUserByEmail(this.loginForm.value.email).subscribe( res => {
+    let byEmail$ = this.us.getUserByEmail(this.loginForm.value.email).subscribe( res => {
       this.user = this.validate.canLogin(this.loginForm.value.psw, res);
       if (this.user) {
         this.isLoggedIn = true;
@@ -68,6 +76,7 @@ export class LoginComponent implements OnInit {
         this.us.setLoginStat(false);
       }
     });
+    this.subs.push(byEmail$);
   }
 
   logout() {
