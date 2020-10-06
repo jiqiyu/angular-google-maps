@@ -174,7 +174,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   showDeviceSnaps(id: string, max: number) {
     let deviceSnaps$ = this.maps.getDeviceSnap(id).subscribe ( data => {
-      this.deviceSnaps = data.snapshot.slice(0, max);
+      this.deviceSnaps = data.snapshot.slice(max); // max: negative number
     });
     this.subs.push(deviceSnaps$);
   }

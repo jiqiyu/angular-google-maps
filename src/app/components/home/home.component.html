@@ -69,7 +69,7 @@
                   [title]="d.id"
                   [label]="D"
                   [iconUrl]="d.iconUrl" 
-                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value);showDeviceSnaps(deviceId.value, 4)">
+                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value);showDeviceSnaps(deviceId.value, -4)">
         <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
           <div>
             <input type="hidden" value={{d.title}} #deviceId>
