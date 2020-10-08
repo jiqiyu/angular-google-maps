@@ -21,7 +21,8 @@
       </div>
     </div>
     <div class="ctrl-btn-group">
-      <button class="btn btn-light btn-sm" (click)="toggleDesc();">Toggle Info Window</button>
+      <button class="btn btn-light btn-sm" (click)="toggleDesc();">Toggle InfoWindow</button>
+      <button class="btn btn-light btn-sm" (click)="toggleHeatmap();">Toggle Heatmap</button>
       <button class="btn btn-light btn-sm" [class.d-none]="showUser" (click)="showUserMarkers();">Show User Markers</button>
       <button class="btn btn-light btn-sm" [class.d-none]="!showUser" (click)="hideUserMarkers();">Hide User Markers</button>
       <button class="btn btn-light btn-sm" [class.d-none]="!showDevice" (click)="showDevices();">Show Devices</button>
@@ -33,6 +34,7 @@
             [latitude]="mapCentreLat" 
             [longitude]="mapCentreLng"
             [disableDoubleClickZoom]="true"
+            [zoom]="zoom"
             data-toggle="modal"
             (mapReady)="getMapInstance($event)"
             (idle)="resetMapCentre()"
@@ -69,13 +71,13 @@
                   [title]="d.id"
                   [label]="D"
                   [iconUrl]="d.iconUrl" 
-                  (markerRightClick)="toggleDesc(false);showDeviceTrail(deviceId.value);showDeviceSnaps(deviceId.value, -4)">
+                  (markerDblClick)="toggleDesc(false);showDeviceTrail(deviceId.value);showDeviceSnaps(deviceId.value, -4)">
         <agm-info-window [disableAutoPan]="true" [isOpen]=openInfoWindow [maxWidth]="280">
           <div>
             <input type="hidden" value={{d.title}} #deviceId>
             <h6 class="font-weight-bold" [class.text-warning]="d.isDanger" [class.text-danger]="d.isFatal">ID: {{d.title}}</h6>
             <div class="dropdown-divider"></div>
-            <div><b>User's Full Name: </b>{{d.fullname}}</div>
+            <div><b>User: </b>{{d.fullname}}</div>
             <div [class.text-warning]="d.isDanger_t" [class.text-danger]="d.isFatal_t">
               <b>Temperature: </b> {{d.temperature}}
             </div>
@@ -88,25 +90,25 @@
 
       <div *ngIf="trail.id !== undefined && trail.coords.length">
         <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
-                    [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
-        </agm-circle>
-        <agm-circle [latitude]="trail.coords[0].lat" [longitude]="trail.coords[0].lng" 
-                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
+                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="300" >
         </agm-circle>
         <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
-                    [fillColor]="'black'" [fillOpacity]="1" [radius]="1000" >
+                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="300" >
         </agm-circle>
-        <agm-circle [latitude]="trail.coords[trail.coords.length - 1].lat" [longitude]="trail.coords[trail.coords.length - 1].lng" 
-                    [fillColor]="'#FF4500'" [fillOpacity]="0.5" [radius]="3000" >
-        </agm-circle>
-        <agm-polyline [strokeColor]="'#1E90FF'"[strokeWeight]="3">
+        <agm-polyline [strokeColor]="'#1E90FF'" [strokeWeight]="3">
+          <agm-icon-sequence [fixedRotation]="false"
+                             [repeat]= "'150px'"
+                             [offset]="100" 
+                             [strokeWeight]="2"
+                             [path]="'FORWARD_OPEN_ARROW'"
+                             [strokeColor]="'#FF4500'">
+          </agm-icon-sequence>
           <agm-polyline-point *ngFor="let coords of trail.coords; index as idx"
                               [latitude]="coords.lat" 
                               [longitude]="coords.lng">
           </agm-polyline-point>
         </agm-polyline>
       </div>
-
     </agm-map>
   </div>
 

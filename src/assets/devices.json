@@ -8,24 +8,4501 @@
         "deviceUserFullname": "John Doe",
         "temperature": 39,
         "airQual": 0,
-        "coords": {
-          "lat": -34.039939637547135,
-          "lng": 139.65244091796876
-        }
+        "coords": {"lat": -34.982551, "lng": 138.645368}
       },
+
       {
         "timestamp": 1600697419438,
         "deviceUserId": 1,
         "deviceUserFullname": "John Doe",
-        "temperature": 30,
-        "airQual": 1,
-        "coords": {
-          "lat": -34.14002222729243,
-          "lng": 139.96005810546876
-        }
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982745, "lng": 138.644586}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982842, "lng": 138.643688}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982919, "lng": 138.642815}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982992, "lng": 138.642112}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9831, "lng": 138.641461}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983206, "lng": 138.640829}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983273, "lng": 138.640324}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983316, "lng": 138.640023}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983357, "lng": 138.639794}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983371, "lng": 138.639687}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983368, "lng": 138.639666}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983383, "lng": 138.639594}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983508, "lng": 138.639525}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983842, "lng": 138.639591}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984147, "lng": 138.639668}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984206, "lng": 138.639686}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984386, "lng": 138.63979}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984701, "lng": 138.639902}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984965, "lng": 138.639938}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98501, "lng": 138.639947}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98536, "lng": 138.639952}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985715, "lng": 138.64003}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986117, "lng": 138.640119}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986564, "lng": 138.640209}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986905, "lng": 138.64027}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986956, "lng": 138.640279}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800224, "lng": 138.63352}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800155, "lng": 138.634101}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.80016, "lng": 138.63443}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800378, "lng": 138.634527}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800738, "lng": 138.634598}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800938, "lng": 138.63465}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801024, "lng": 138.634889}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800955, "lng": 138.635392}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800886, "lng": 138.635959}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800811, "lng": 138.636275}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800788, "lng": 138.636299}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800719, "lng": 138.636302}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800702, "lng": 138.636298}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800661, "lng": 138.636273}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800395, "lng": 138.636172}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800228, "lng": 138.636116}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800169, "lng": 138.63613}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800066, "lng": 138.636167}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984345, "lng": 138.622922}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984389, "lng": 138.622926}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984437, "lng": 138.622924}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984746, "lng": 138.622818}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985436, "lng": 138.622959}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98612, "lng": 138.623112}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986433, "lng": 138.623029}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986631, "lng": 138.621213}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98666, "lng": 138.621033}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986801, "lng": 138.620141}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986823, "lng": 138.620034}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986831, "lng": 138.619916}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987034, "lng": 138.618208}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987056, "lng": 138.618034}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987169, "lng": 138.617145}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987217, "lng": 138.616715}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986144, "lng": 138.616403}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985292, "lng": 138.616257}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980666, "lng": 138.590374}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980501, "lng": 138.591281}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980148, "lng": 138.592052}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980173, "lng": 138.591148}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980693, "lng": 138.590592}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981261, "lng": 138.591142}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981808, "lng": 138.59173}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98234, "lng": 138.592341}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982812, "lng": 138.593022}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9833, "lng": 138.593672}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983809, "lng": 138.594275}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984246, "lng": 138.594979}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984791, "lng": 138.595958}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985675, "lng": 138.596746}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986262, "lng": 138.59578}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986776, "lng": 138.595093}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987282, "lng": 138.594426}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987783, "lng": 138.593767}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.988343, "lng": 138.593184}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.988895, "lng": 138.592506}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.989371, "lng": 138.591701}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.989722, "lng": 138.590952}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990315, "lng": 138.590305}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990738, "lng": 138.589616}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979448, "lng": 138.638702}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979023, "lng": 138.638585}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978542, "lng": 138.638492}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9781, "lng": 138.638411}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977986, "lng": 138.638376}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97768, "lng": 138.638313}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977316, "lng": 138.638273}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977135, "lng": 138.638254}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976987, "lng": 138.638303}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976946, "lng": 138.638404}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976944, "lng": 138.638467}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976892, "lng": 138.638459}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976842, "lng": 138.638442}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976822, "lng": 138.638391}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976814, "lng": 138.638412}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976787, "lng": 138.638628}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976729, "lng": 138.63865}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976759, "lng": 138.638677}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976772, "lng": 138.638498}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976787, "lng": 138.638389}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976848, "lng": 138.638283}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97687, "lng": 138.638239}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977015, "lng": 138.638198}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977333, "lng": 138.638256}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977595, "lng": 138.638308}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977797, "lng": 138.638344}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97816, "lng": 138.638442}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978414, "lng": 138.638508}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978445, "lng": 138.638516}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978503, "lng": 138.638529}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978607, "lng": 138.638549}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97867, "lng": 138.638644}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978847, "lng": 138.638706}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97924, "lng": 138.638744}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979738, "lng": 138.638822}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980201, "lng": 138.638882}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9804, "lng": 138.638905}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980501, "lng": 138.638921}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980892, "lng": 138.638986}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981446, "lng": 138.639087}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981985, "lng": 138.639199}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982239, "lng": 138.639249}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982286, "lng": 138.639266}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.997847, "lng": 138.629388}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.997874, "lng": 138.62918}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.997885, "lng": 138.629069}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.997887, "lng": 138.62905}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.997933, "lng": 138.628954}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.998242, "lng": 138.62899}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.998617, "lng": 138.629075}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.998719, "lng": 138.629092}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.998944, "lng": 138.629145}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.99932, "lng": 138.629251}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.99959, "lng": 138.629309}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.999677, "lng": 138.629324}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.999966, "lng": 138.62936}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800288, "lng": 138.62943}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800443, "lng": 138.629461}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800465, "lng": 138.629474}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800644, "lng": 138.62954}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800948, "lng": 138.62962}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801242, "lng": 138.629685}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801375, "lng": 138.629702}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.8014, "lng": 138.629703}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801453, "lng": 138.629707}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801473, "lng": 138.629709}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801532, "lng": 138.629707}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801852, "lng": 138.629729}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802173, "lng": 138.629789}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802459, "lng": 138.629847}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802554, "lng": 138.629825}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802647, "lng": 138.629549}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802693, "lng": 138.629179}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802729, "lng": 138.628751}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966104, "lng": 138.609291}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966103, "lng": 138.609268}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966138, "lng": 138.609229}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966183, "lng": 138.609231}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966153, "lng": 138.609276}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966005, "lng": 138.609365}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965897, "lng": 138.60957}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965767, "lng": 138.609739}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965693, "lng": 138.610389}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965615, "lng": 138.611201}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965533, "lng": 138.612121}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965467, "lng": 138.612939}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965444, "lng": 138.614821}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965444, "lng": 138.614964}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965318, "lng": 138.615424}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.963961, "lng": 138.615296}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.963115, "lng": 138.615196}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962967, "lng": 138.615183}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962278, "lng": 138.615127}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961675, "lng": 138.615055}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.960932, "lng": 138.614988}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.959337, "lng": 138.614862}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.973187, "lng": 138.621922}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.973043, "lng": 138.622118}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.973007, "lng": 138.622165}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972979, "lng": 138.622219}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972865, "lng": 138.622394}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972779, "lng": 138.622503}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972676, "lng": 138.622701}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972606, "lng": 138.622806}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972566, "lng": 138.62284}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972508, "lng": 138.622852}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972387, "lng": 138.623011}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972099, "lng": 138.623328}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971704, "lng": 138.623783}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971481, "lng": 138.624081}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9714, "lng": 138.624179}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971352, "lng": 138.62422}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971248, "lng": 138.624327}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.970904, "lng": 138.624781}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97052, "lng": 138.625283}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.970337, "lng": 138.625553}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.970128, "lng": 138.625832}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.969756, "lng": 138.626331}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9693, "lng": 138.626902}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.969132, "lng": 138.627065}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.969092, "lng": 138.627103}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968979, "lng": 138.627172}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968595, "lng": 138.627634}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968372, "lng": 138.627913}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968337, "lng": 138.627961}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968244, "lng": 138.628138}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.967942, "lng": 138.628581}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.967482, "lng": 138.629094}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.967031, "lng": 138.629606}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966732, "lng": 138.629986}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96668, "lng": 138.630058}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966633, "lng": 138.630109}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96658, "lng": 138.630211}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966367, "lng": 138.630594}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96591, "lng": 138.631137}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965353, "lng": 138.631806}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964962, "lng": 138.632298}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964868, "lng": 138.632486}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964518, "lng": 138.632913}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.963435, "lng": 138.634173}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962847, "lng": 138.634953}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962291, "lng": 138.635935}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962224, "lng": 138.636074}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961957, "lng": 138.636892}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961652, "lng": 138.638886}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961284, "lng": 138.639955}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96121, "lng": 138.640068}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961064, "lng": 138.64072}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96104, "lng": 138.641411}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961048, "lng": 138.642324}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.960851, "lng": 138.643118}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.959977, "lng": 138.644591}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.959913, "lng": 138.644698}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.959623, "lng": 138.645065}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.958902, "lng": 138.645158}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.958428, "lng": 138.64457}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.957687, "lng": 138.64334}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.957583, "lng": 138.64324}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.957019, "lng": 138.642787}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.956603, "lng": 138.642322}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.95638, "lng": 138.641602}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.95579, "lng": 138.641382}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.954493, "lng": 138.642133}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.954361, "lng": 138.642206}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.953719, "lng": 138.64265}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.953096, "lng": 138.642915}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.951617, "lng": 138.643211}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.951496, "lng": 138.643246}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950733, "lng": 138.643428}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950126, "lng": 138.643536}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950103, "lng": 138.643784}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.95039, "lng": 138.64401}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950448, "lng": 138.644013}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950536, "lng": 138.64404}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.950493, "lng": 138.644141}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990859, "lng": 138.602808}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990864, "lng": 138.602768}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990995, "lng": 138.602539}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991148, "lng": 138.602172}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991385, "lng": 138.601312}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991405, "lng": 138.600776}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991288, "lng": 138.600528}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991113, "lng": 138.600441}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991027, "lng": 138.600395}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991094, "lng": 138.600311}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.991211, "lng": 138.600183}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.99106, "lng": 138.599334}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990538, "lng": 138.598718}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.990095, "lng": 138.598086}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.989644, "lng": 138.59736}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.989254, "lng": 138.596844}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.988855, "lng": 138.596397}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.988483, "lng": 138.595963}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.988015, "lng": 138.595365}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987558, "lng": 138.594735}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987472, "lng": 138.594323}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98763, "lng": 138.594025}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987767, "lng": 138.593987}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.987486, "lng": 138.594452}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986977, "lng": 138.595043}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986583, "lng": 138.595552}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98654, "lng": 138.59561}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986516, "lng": 138.595659}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986378, "lng": 138.595707}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986044, "lng": 138.595362}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985598, "lng": 138.594715}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985321, "lng": 138.594361}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985207, "lng": 138.594236}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985751, "lng": 138.594062}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985996, "lng": 138.593881}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.986092, "lng": 138.59383}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985998, "lng": 138.593899}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985114, "lng": 138.594365}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985022, "lng": 138.594441}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984823, "lng": 138.594635}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984719, "lng": 138.594629}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985069, "lng": 138.594176}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9855, "lng": 138.59365}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98577, "lng": 138.593291}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985839, "lng": 138.593159}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982651, "lng": 138.600628}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982616, "lng": 138.600599}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982702, "lng": 138.60047}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982915, "lng": 138.600192}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983137, "lng": 138.599887}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983414, "lng": 138.599519}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983629, "lng": 138.599237}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983688, "lng": 138.599157}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983716, "lng": 138.599106}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983798, "lng": 138.599072}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983997, "lng": 138.599186}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984271, "lng": 138.599538}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984577, "lng": 138.599948}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984828, "lng": 138.60026}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984999, "lng": 138.600477}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985113, "lng": 138.600651}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985155, "lng": 138.600703}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985192, "lng": 138.600749}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985278, "lng": 138.600839}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985387, "lng": 138.600857}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985478, "lng": 138.60089}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985526, "lng": 138.601022}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985598, "lng": 138.601148}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985631, "lng": 138.601202}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98566, "lng": 138.601267}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.803986, "lng": 138.626035}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.804102, "lng": 138.625089}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.804211, "lng": 138.624156}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.803861, "lng": 138.623385}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.803151, "lng": 138.623214}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.802439, "lng": 138.623077}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.80174, "lng": 138.622905}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.801069, "lng": 138.622785}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.800345, "lng": 138.622649}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.999633, "lng": 138.622603}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.99975, "lng": 138.6217}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.999885, "lng": 138.620854}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.999209, "lng": 138.620607}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.995656, "lng": 138.600395}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.995203, "lng": 138.600304}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978738, "lng": 138.615584}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978812, "lng": 138.615189}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978824, "lng": 138.615092}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978833, "lng": 138.614932}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978834, "lng": 138.614898}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97874, "lng": 138.614757}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978501, "lng": 138.614433}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978182, "lng": 138.614026}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977851, "lng": 138.613623}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977486, "lng": 138.613166}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977109, "lng": 138.612674}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976743, "lng": 138.612186}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97644, "lng": 138.6118}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976295, "lng": 138.611614}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976158, "lng": 138.61144}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975806, "lng": 138.610997}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975422, "lng": 138.610484}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975126, "lng": 138.610087}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975012, "lng": 138.609854}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975164, "lng": 138.609573}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975498, "lng": 138.60918}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975868, "lng": 138.60873}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976256, "lng": 138.60824}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976519, "lng": 138.607928}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976539, "lng": 138.607904}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976595, "lng": 138.607854}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976853, "lng": 138.607547}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977234, "lng": 138.607087}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977644, "lng": 138.606558}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978066, "lng": 138.606017}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978468, "lng": 138.605499}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978866, "lng": 138.604995}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979295, "lng": 138.604455}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979695, "lng": 138.60395}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979982, "lng": 138.603584}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980295, "lng": 138.603223}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980664, "lng": 138.602766}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981043, "lng": 138.602288}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981399, "lng": 138.601823}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981727, "lng": 138.601407}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981853, "lng": 138.601247}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981894, "lng": 138.601195}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982076, "lng": 138.600977}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982338, "lng": 138.600603}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982666, "lng": 138.600133}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983048, "lng": 138.599634}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.98345, "lng": 138.599198}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.983791, "lng": 138.598998}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984177, "lng": 138.598959}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984388, "lng": 138.598971}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984404, "lng": 138.599128}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984586, "lng": 138.599524}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.984835, "lng": 138.599927}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985116, "lng": 138.600307}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985282, "lng": 138.600539}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.985346, "lng": 138.600692}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965769, "lng": 138.607201}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96579, "lng": 138.607414}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965802, "lng": 138.607755}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965791, "lng": 138.608219}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965763, "lng": 138.608759}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965726, "lng": 138.609348}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965716, "lng": 138.609882}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965708, "lng": 138.610202}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965705, "lng": 138.610253}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965707, "lng": 138.610369}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965692, "lng": 138.61072}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965699, "lng": 138.611215}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965687, "lng": 138.611789}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965666, "lng": 138.612373}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965598, "lng": 138.612883}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965543, "lng": 138.613039}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965532, "lng": 138.613125}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9655, "lng": 138.613553}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965448, "lng": 138.614053}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965388, "lng": 138.614645}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965323, "lng": 138.61525}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965303, "lng": 138.615847}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965251, "lng": 138.616439}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965204, "lng": 138.61702}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965172, "lng": 138.617556}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965164, "lng": 138.618075}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965153, "lng": 138.618618}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965136, "lng": 138.619112}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965129, "lng": 138.619378}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965119, "lng": 138.619481}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.9651, "lng": 138.619852}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965083, "lng": 138.620349}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965045, "lng": 138.62093}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964992, "lng": 138.621481}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96498, "lng": 138.621695}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964993, "lng": 138.621843}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964986, "lng": 138.622255}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964975, "lng": 138.622823}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964939, "lng": 138.623411}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964902, "lng": 138.624014}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964853, "lng": 138.624576}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964826, "lng": 138.624922}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964796, "lng": 138.625375}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964782, "lng": 138.625869}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964768, "lng": 138.626089}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964766, "lng": 138.626117}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964723, "lng": 138.626276}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964681, "lng": 138.626649}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.982012, "lng": 138.6042}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981574, "lng": 138.604911}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.981055, "lng": 138.605597}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.980479, "lng": 138.606341}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979996, "lng": 138.606939}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.979459, "lng": 138.607613}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978953, "lng": 138.608228}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.978409, "lng": 138.608839}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977842, "lng": 138.609501}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.977334, "lng": 138.610181}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.976809, "lng": 138.610836}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97624, "lng": 138.611514}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.975725, "lng": 138.612145}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97519, "lng": 138.612805}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.974672, "lng": 138.613464}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.974084, "lng": 138.614186}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.973533, "lng": 138.613636}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.973021, "lng": 138.613009}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.972501, "lng": 138.612371}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971964, "lng": 138.611681}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.971479, "lng": 138.611078}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.970992, "lng": 138.610477}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.970467, "lng": 138.609801}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.97009, "lng": 138.608904}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.969657, "lng": 138.608103}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.969132, "lng": 138.607276}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.968564, "lng": 138.606469}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96798, "lng": 138.605745}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.96738, "lng": 138.605299}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.966604, "lng": 138.605297}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965838, "lng": 138.6052}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.965139, "lng": 138.605139}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.964457, "lng": 138.605094}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.963716, "lng": 138.605142}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962932, "lng": 138.605398}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.962126, "lng": 138.605813}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.961344, "lng": 138.606215}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.960556, "lng": 138.606495}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.959732, "lng": 138.606484}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.95891, "lng": 138.606228}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.958182, "lng": 138.605695}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.957676, "lng": 138.605118}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.957039, "lng": 138.604346}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.956335, "lng": 138.603719}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.955503, "lng": 138.603406}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.954665, "lng": 138.603242}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.953837, "lng": 138.603172}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.952986, "lng": 138.603112}
+      },
+
+      {
+        "timestamp": 1600697419438,
+        "deviceUserId": 1,
+        "deviceUserFullname": "John Doe",
+        "temperature": 39,
+        "airQual": 0,
+        "coords": {"lat": -34.951266, "lng": 138.603355}
       }
     ]
-  }, 
+  },
 
   {
     "id": "MODEL1-002", 
@@ -37,8 +4514,8 @@
         "temperature": 70,
         "airQual": 2,
         "coords": {
-          "lat": -35.06689662663586,
-          "lng": 139.26242626953126
+          "lat": -34.925148106447736,
+          "lng": 138.66470135498048
         }
       },
       {
@@ -48,8 +4525,8 @@
         "temperature": 50,
         "airQual": 1,
         "coords": {
-          "lat": -35.02192369829769,
-          "lng": 139.20749462890626
+          "lat": -34.95104115054516,
+          "lng": 138.6605814819336
         }
       },
       {
@@ -59,8 +4536,8 @@
         "temperature": 80,
         "airQual": 3,
         "coords": {
-          "lat": -35.048910426366234,
-          "lng": 139.59201611328126
+          "lat": -34.91050929201017,
+          "lng": 138.5671976928711
         }
       }
     ]
@@ -76,8 +4553,8 @@
         "temperature": 55,
         "airQual": 3,
         "coords": {
-          "lat": -33.93518142287529,
-          "lng": 140.86093701171876
+          "lat": -34.871647474519655,
+          "lng": 138.5829905395508
         }
       }
     ]
@@ -93,8 +4570,8 @@
         "temperature": 55,
         "airQual": 2,
         "coords": {
-          "lat": -33.83518142287529,
-          "lng": 140.76093701171876
+          "lat": -34.88460345606721,
+          "lng": 138.55758465576173
         }
       }
     ]

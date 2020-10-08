@@ -31,7 +31,7 @@ import { PgnotfoundComponent } from './components/pgnotfound/pgnotfound.componen
     ReactiveFormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCcJ0PgnfHTnbhooSQMs5E-A8uS7UldnWQ',
-      libraries: ['places']
+      libraries: ['places', 'visualization']
     }),
     //BsDropdownModule.forRoot(),
     ModalModule.forRoot()
