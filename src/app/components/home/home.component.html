@@ -3,19 +3,15 @@
     <div>
       <div class="font-weight-light">Double Click on the Map to Add A Marker; Double Click on A Marker to Unmark</div>
       <div class="input-group">
-        <input type="text" 
-               placeholder="Or Enter An Address Here" 
-               class="form-control form-control-sm"
-               [(ngModel)]="autoAddress"
-               #addrInput>
+        <places-autocomplete (addressCoords)="setCoords($event)" class="form-control form-control-sm" #autocomplete></places-autocomplete>
         <div class="input-group-append">
           <button class="btn btn-outline-secondary btn-sm" 
                   type="button"
-                  [(disabled)]="!isValidAddress || !addrInput.value"
-                  (click)="addrInput.value='';moveMap()">Move Map</button>
+                  [(disabled)]="!isValidAddress || !autocomplete.addrInput.nativeElement.value"
+                  (click)="autocomplete.addrInput.nativeElement.value = '';moveMap()">Move Map</button>
           <button class="btn btn-outline-secondary btn-sm" 
                   type="button"
-                  [(disabled)]="!isValidAddress || !addrInput.value"
+                  [(disabled)]="!isValidAddress || !autocomplete.addrInput.nativeElement.value"
                   (click)="staticModal.show();">Add Marker</button>
         </div>
       </div>
@@ -143,7 +139,7 @@
             <button class="btn btn-primary btn-sm btn-block" 
                     (click)="mark(lab.value, t.value, desc.value);
                              staticModal.hide();
-                             t.value='';lab.value='';desc.value='';addrInput.value='';">
+                             t.value='';lab.value='';desc.value='';autocomplete.addrInput.nativeElement.value='';">
               Mark
             </button>
             <button class="btn btn-secondary btn-sm btn-block"

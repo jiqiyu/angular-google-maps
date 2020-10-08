@@ -13,6 +13,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { PgnotfoundComponent } from './components/pgnotfound/pgnotfound.component';
+import { PlacesAutoCompleteComponent } from './components/placesAutoComplete/placesAutoComplete.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { PgnotfoundComponent } from './components/pgnotfound/pgnotfound.componen
     HomeComponent,
     LoginComponent,
     PgnotfoundComponent,
+    PlacesAutoCompleteComponent,
   ],
   imports: [
     BrowserModule,

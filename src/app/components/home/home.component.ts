@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, OnDestroy, TemplateRef, ViewChild, NgZone } from '@angular/core';
+import { Component, OnInit, OnDestroy, TemplateRef, ViewChild, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
@@ -16,11 +16,9 @@ import { AirQualIndex } from '../../models/device.model';
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
+export class HomeComponent implements OnInit, OnDestroy {
   @ViewChild('addrInput') addrInput: any;
   
-  autoAddress: string;
-  addressType = "geocode";
   heatmapData: any;
   isValidAddress = false;
   isLoggedIn: boolean;
@@ -111,15 +109,8 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
         localStorage.setItem(this.key, JSON.stringify([]));
       }
       this.markers = this.markers.concat(this.getMarkersFromLocalStorage());
+      this.mapsAPILoader.load().then(() => this.heatmapData = this.getPoints());
     }
-  }
-
-  ngAfterViewInit() {
-    this.mapsAPILoader.load().then(() => {
-      this.getPlaceAutocomplete();
-      this.heatmapData = this.getPoints();
-    });
-    
   }
 
   ngOnDestroy() {
@@ -132,24 +123,13 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.map = map;
   }
 
-  private getPlaceAutocomplete() {
-    const autocomplete = new google.maps.places.Autocomplete( this.addrInput.nativeElement, {
-      componentRestrictions: { country: 'AU' },
-      types: [this.addressType]  // 'establishment' / 'address' / 'geocode'
-    });
-    google.maps.event.addListener(autocomplete, 'place_changed', () => {
-      const place = autocomplete.getPlace();
-      if (place.formatted_address) {
-        this.autoAddress = place.formatted_address;
-        this.coords = {
-          lat: place.geometry.location.lat(),
-          lng: place.geometry.location.lng()
-        }; 
-        this.zone.run(()=>this.isValidAddress = true);
-      } else {
-        this.zone.run(()=>this.isValidAddress = false);
-      }
-    });
+  setCoords(coords: any) {
+    if(coords) {
+      this.coords = coords;
+      this.zone.run(() => this.isValidAddress = true);
+    } else {
+      this.zone.run(() => this.isValidAddress = false);
+    }
   }
 
   moveMap() {
@@ -284,7 +264,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       }, 
       err => console.error(err),
       () => {
-        this.openInfoWindow = true;
+        //this.openInfoWindow = true;
         this.showDevice = !this.showDevice;
       }
     );
