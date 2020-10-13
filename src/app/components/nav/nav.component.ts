@@ -9,6 +9,7 @@ import { UserService } from '../../services/user.service';
 
 export class NavComponent implements OnInit { 
   private subs = [];
+  private loginStat$;
   name: string;
   isLoggedIn: boolean;
   isCollapsed: boolean = true;
@@ -16,11 +17,11 @@ export class NavComponent implements OnInit {
   constructor( private us: UserService ) { }
 
   ngOnInit(): void {
-    let loginStat$ = this.us.loginStat.subscribe( stat => {
+    this.loginStat$ = this.us.loginStat.subscribe( stat => {
       this.isLoggedIn = stat;
       this.name = localStorage.getItem('userHasLoggedIn_username');
     });
-    this.subs.push(loginStat$);
+    this.subs.push(this.loginStat$);
   }
 
   ngOnDestroy() {

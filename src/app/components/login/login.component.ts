@@ -16,6 +16,8 @@ import { FeedbackMsg, FeedbackType } from '../../models/feedback-msg.model';
 
 export class LoginComponent implements OnInit, OnDestroy {
   private subs = [];
+  private loginStat$;
+  private byEmail$;
   isLoggedIn: boolean;
   user: User;
   feedback: FeedbackMsg = new FeedbackMsg();
@@ -29,8 +31,8 @@ export class LoginComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit(): void {
-    let loginStat$ = this.us.loginStat.subscribe( stat => this.isLoggedIn = stat );
-    this.subs.push(loginStat$);
+    this.loginStat$ = this.us.loginStat.subscribe( stat => this.isLoggedIn = stat );
+    this.subs.push(this.loginStat$);
     this.us.setLoginStat( localStorage.getItem('userHasLoggedIn_username') ? true : false );
     if (this.isLoggedIn) {
       this.user = {
@@ -57,7 +59,7 @@ export class LoginComponent implements OnInit, OnDestroy {
   get psw() { return this.loginForm.get('psw'); }
   
   onSubmit() {
-    let byEmail$ = this.us.getUserByEmail(this.loginForm.value.email).subscribe( res => {
+    this.byEmail$ = this.us.getUserByEmail(this.loginForm.value.email).subscribe( res => {
       this.user = this.validate.canLogin(this.loginForm.value.psw, res);
       if (this.user) {
         this.isLoggedIn = true;
@@ -76,7 +78,7 @@ export class LoginComponent implements OnInit, OnDestroy {
         this.us.setLoginStat(false);
       }
     });
-    this.subs.push(byEmail$);
+    this.subs.push(this.byEmail$);
   }
 
   logout() {
