@@ -32,7 +32,7 @@ import { PlacesAutoCompleteComponent } from './components/placesAutoComplete/pla
     HttpClientModule,
     ReactiveFormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCcJ0PgnfHTnbhooSQMs5E-A8uS7UldnWQ',
+      apiKey: 'Your API KEY',
       libraries: ['places', 'visualization']
     }),
     //BsDropdownModule.forRoot(),
